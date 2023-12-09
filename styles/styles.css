@@ -1,0 +1,267 @@
+@font-face {
+	font-family: "AmaticSC";
+	src: url("../fonts/AmaticSC-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "AmaticSC";
+	src: url("../fonts/AmaticSC-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Comfortaa";
+	src: url("../fonts/Comfortaa-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Comfortaa";
+	src: url("../fonts/Comfortaa-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+body {
+	font-family: "AmaticSC";
+	font-weight: 400;
+	width: 100%;
+	background-image: url('/Users/home/Documents/Дарю тебе/images/snow.png');
+	background-size: 100px;
+	background-repeat: space;
+	margin-bottom: 0;
+	font-size: 1.5rem;
+}
+
+.container {
+	max-width: 100%;
+}
+
+
+footer {
+	background-color:#c6ae97;
+	background-image: none;
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: white;
+	border-top-style: dotted;
+	border-width: 12px;
+}
+
+footer a {
+	color: white;
+}
+
+.form-search {
+	width: 90%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.form-search input {
+	border-radius: 7px;
+}
+
+#button-search {
+	width: 15%;
+}
+
+
+.form-search-backgroung {
+	background-color: #c6ae97;
+	padding-top: 5%;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+
+}
+
+.catalog {
+	background-color: #c6ae97;
+	padding-top: 5%;
+	margin-bottom: 5%;
+}
+
+.card {
+	width: 25%;
+	margin-right: 3%;
+	margin-left: 3%;
+	border-color: white;
+	border-radius: 7px;
+	margin-bottom: 5%;
+	text-align: center;
+	min-width: 100px;
+	align-items: center;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.card img {
+	max-width: 100%;
+	height: 50%;
+}
+
+form input,textarea {
+	width: 80%;
+}
+
+
+.button-question {
+	width: 40%;
+}
+
+
+a {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+nav {
+	font-weight: 700;
+	font-size: 2rem;
+	margin: 2% 0 2% 0;
+	background-color: white;
+}
+
+nav a {
+	color: rgb(96, 75, 62);
+}
+
+.hr-class {
+	width: 80%;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.header-large {
+	color: rgb(199, 175, 152);
+	margin: 2% 8% 2% 8%;
+	margin-top: 2%;
+}
+
+.header-small {
+	background-color: #c6ae97;
+	color: white;
+}
+
+.header-small h1 {
+	font-size: 2rem;
+	margin-bottom: 0px;
+}
+
+.icon-menu {
+	margin: 2% 2% 2% 2%;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 3rem;
+	background-color: white;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 4rem;
+	background-color: none;
+}
+
+*:focus {
+	outline: none;
+	box-shadow: 0 0 0 3px gray;
+	cursor: pointer;
+
+}
+
+.block-text {
+	background-color: white;
+}
+
+.topper-large {
+	position: absolute;
+	top: 0;
+	padding-left: 8%;
+	padding-top: 10%;
+	padding-right: 8%;
+	font-size:3rem;
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+
+.first-screen-large {
+	position: relative;
+	color: white;
+	height: 80vh;
+	overflow: hidden;
+	text-align: center;
+	max-height: 500px;
+}
+
+.first-screen-small {
+	color: white;
+	border-bottom: solid 1px gray;
+	padding-left: 8%;
+	padding-top: 13%;
+	padding-right: 8%;
+	font-size:2rem;
+	color: rgb(96, 75, 62);
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+.first-screen-small h2 {
+	font-size: 2rem;
+}
+
+.first-screen-img {
+	overflow: hidden;
+	width: 100%;
+	align-items: center;
+
+}
+
+
+.icons a {
+	margin-right: 3%;
+}
+
+.about-us-block {
+	height: 15vh;
+	display: flex;
+	align-items: center;
+	color: rgb(96, 75, 62);
+}
+
+.about-us-img img {
+	width: 100%;
+}
+
+.description p {
+	font-size: 1.5rem;
+}
+
+.garland_image {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 30px; 
+	overflow: hidden; 
+	z-index: 99; 
+	background: url(https://www.expertplus.ru/UserFiles/Image/content/new_year/02.gif) 
+	repeat-x 100%; 
+	pointer-events: none;
+}
+
+@media (max-width: 767px) {
+	.garland_image {
+		display: none!important;
+	}
+}
+
